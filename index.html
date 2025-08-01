@@ -1,24 +1,93 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="custom.js"></script>
-    <title>Document</title>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5JGJ4QW');</script>
-<!-- End Google Tag Manager -->
+    <title>Downloads</title>
+
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5JGJ4QW"></script>
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5JGJ4QW');</script>
+    <style>
+        /* --- General Body and Page Styling --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: #1a1a1d; /* A very dark, slightly off-black */
+            color: #c5c6c7;           /* A light grey for text */
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* --- Main Content Container --- */
+        .container {
+            background-color: #2c2f33; /* Dark grey container background */
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* --- Heading Style --- */
+        h1 {
+            color: #66fcf1; /* A bright cyan for the main title */
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 2em;
+            border-bottom: 2px solid #45a29e;
+            padding-bottom: 15px;
+        }
+
+        /* --- Link Styling (Buttons) --- */
+        a {
+            display: block; /* Makes the link fill its container and stack vertically */
+            background-color: #45a29e; /* A muted teal color */
+            color: #ffffff; /* White text */
+            padding: 15px;
+            margin-bottom: 15px; /* Space between the buttons */
+            text-decoration: none; /* Removes the default underline */
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions for hover effects */
+        }
+
+        /* --- Removing margin from the last button --- */
+        a:last-of-type {
+            margin-bottom: 0;
+        }
+
+        /* --- Hover effect for links --- */
+        a:hover {
+            background-color: #66fcf1; /* Brighten the button on hover */
+            color: #1a1a1d; /* Darken the text on hover for contrast */
+            transform: translateY(-3px); /* Lifts the button slightly */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        /* --- Active state (when clicking) --- */
+        a:active {
+            transform: translateY(0); /* Returns the button to its original position */
+        }
+    </style>
 </head>
 <body>
-    V1-check GTM
-    <br><a href="m.cfg" download>downloadconfig</a>
-    <br><a href="bot.cfg" download>download bot config</a>
-    <br><a href="aim_map.bsp" download>aim_map</a>
-    <br><a href="https://en.baixe.net/counter-strike-1-6-portable" >download cs1.6portable backup</a>
+
+    <div class="container">
+        <h1>V1 - GTM Downloads</h1>
+        <a href="m.cfg" download>Download Main Config</a>
+        <a href="bot.cfg" download>Download Bot Config</a>
+        <a href="aim_map.bsp" download>Download aim_map.bsp</a>
+        <a href="https://en.baixe.net/counter-strike-1-6-portable">Download CS 1.6 Portable (Backup)</a>
+    </div>
+
 </body>
 </html>
